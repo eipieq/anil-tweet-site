@@ -43,7 +43,7 @@ export default async function handler(req, res) {
     const { text, timestamp, secret } = req.body;
     
     // Security: Check secret key
-    const expectedSecret = process.env.UPDATE_SECRET || 'anil-tweet-secret-2024';
+    const expectedSecret = process.env.UPDATE_SECRET || 'anil-tweet-july-2025';
     if (secret !== expectedSecret) {
       console.log('Invalid secret provided. Expected:', expectedSecret, 'Got:', secret);
       return res.status(401).json({ error: 'Unauthorized' });
