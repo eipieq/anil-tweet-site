@@ -2,10 +2,9 @@
     "name": "anil-tweet-site",
     "version": "1.0.0",
     "description": "Anil's dynamic tweet site",
-    "main": "index.js",
+    "main": "index.html",
     "scripts": {
         "dev": "vercel dev",
-        "build": "echo 'No build step required'",
         "deploy": "vercel --prod"
     },
     "keywords": ["tweet", "dynamic", "html"],
